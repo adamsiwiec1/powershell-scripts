@@ -19,6 +19,6 @@ if ((Test-Admin) -eq $false)  {
 
 <# start of script after admin verification #>
 
-ssh ukryty@3.tcp.ngrok.io -p 27816
+ssh username@ipaddress -p <port-optional>
 
 

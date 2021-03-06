@@ -1,0 +1,4 @@
+Set-Content -Path C:\YourPath\file.txt -Value "a value"
+
+Get-Content -Path C:\YourPath\file.txt
+a value
