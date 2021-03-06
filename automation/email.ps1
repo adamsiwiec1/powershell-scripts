@@ -1,9 +1,10 @@
 
 
 Write-Host "Enter a recipient"
-$tempRecipient = Read-Host
-$recipient = $tempRecipient
+$recipient = Read-Host
+
+$secpasswd = ConvertTo-SecureString $password -AsPlainText -Force
+$botcreds = New-Object System.Management.Automation.PSCredential ($bot, $secpasswd)
 
 
-
-Send-MailMessage -To “Sachin98.pathak@gmail.com” -From “adam2.siwiec@gmail.com”  -Subject “Sent using powershell” -Body “Some important plain text!” -Credential (Get-Credential) -SmtpServer “smtp.gmail.com” -Port 25 -UseSsl
+Send-MailMessage -To $recipient -From $bot� -Subject "Sent using powershell" -Body "This is an important message"� -Credential $botcreds -SmtpServer "smtp.gmail.com"� -Port 25 -UseSsl
