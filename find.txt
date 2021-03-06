@@ -1,0 +1,2 @@
+
+ls Z:\ *keyword* -Recurse -Directory

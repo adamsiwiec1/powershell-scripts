@@ -1,0 +1,1 @@
+wmic MEMORYCHIP get BankLabel,DeviceLocator,Capacity,Speed

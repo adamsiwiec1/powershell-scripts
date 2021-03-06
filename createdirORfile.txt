@@ -1,0 +1,8 @@
+
+mkdir YourDirectory
+
+notepad YourDirectory\yourfile.txt
+
+OR
+
+notepad YourDirectory\yourfile.ps1
