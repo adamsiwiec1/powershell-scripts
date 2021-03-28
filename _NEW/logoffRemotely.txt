@@ -1,0 +1,6 @@
+	
+$userName = 'administrator'
+$sessionId = ((quser /server:DC | Where-Object { $_ -match $userName }) -split ' +')[2]
+
+
+Invoke-RDUserLogoff -HostServer DC -UnifiedSessionId $sessionId

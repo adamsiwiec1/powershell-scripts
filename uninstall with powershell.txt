@@ -1,0 +1,14 @@
+Get-WmiObject -Class Win32_Product | Select-Object -Property Name
+
+^ get all
+
+Get-WmiObject -Class Win32_Product | Where-Object{$_.Name -eq "Free Tools"}
+
+^ get one
+
+$MyApp = Get-WmiObject -Class Win32_Product | Where-Object{$_.Name -eq "Free Tools"}
+
+
+^ set var
+
+^ delete var

@@ -1,0 +1,21 @@
+cmd /?
+
+/c Carries out the command specified by string and then terminates
+/k Carries out the command specified by string but remains
+/S      Modifies the treatment of string after /C or /K (see below)
+/Q      Turns echo off
+/D      Disable execution of AutoRun commands from registry (see below)
+/A      Causes the output of internal commands to a pipe or file to be ANSI
+/U      Causes the output of internal commands to a pipe or file to be
+        Unicode
+/T:fg   Sets the foreground/background colors (see COLOR /? for more info)
+/E:ON   Enable command extensions (see below)
+/E:OFF  Disable command extensions (see below)
+/F:ON   Enable file and directory name completion characters (see below)
+/F:OFF  Disable file and directory name completion characters (see below)
+/V:ON   Enable delayed environment variable expansion using ! as the
+        delimiter. For example, /V:ON would allow !var! to expand the
+        variable var at execution time.  The var syntax expands variables
+        at input time, which is quite a different thing when inside of a FOR
+        loop.
+/V:OFF  Disable delayed environment expansion.
