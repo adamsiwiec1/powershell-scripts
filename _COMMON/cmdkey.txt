@@ -1,1 +1,1 @@
-cmdkey /add:10.0.0.3 /user:kinder /pass PASSWORD
+cmdkey /add:10.0.0.3 /user:username /pass PASSWORD
