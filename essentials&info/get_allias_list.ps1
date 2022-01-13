@@ -1,1 +1,0 @@
-powershell -noexit Get-Alias
