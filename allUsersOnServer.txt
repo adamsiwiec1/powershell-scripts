@@ -1,0 +1,3 @@
+quser /server:DC01
+
+quser /server:servername

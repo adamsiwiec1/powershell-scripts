@@ -1,3 +1,0 @@
-quser /server:nrt01adc001
-
-quser /server:servername
